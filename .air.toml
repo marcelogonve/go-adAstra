@@ -1,0 +1,9 @@
+# Basic configuration for Windows
+[build]
+bin = "./tmp/go-adAstra.exe"
+cmd = "go build -o ./tmp/go-adAstra.exe ./cmd/..."
+full_bin = "./tmp/go-adAstra.exe"
+include_ext = ["go", "tpl", "tmpl", "html"]
+
+[log]
+color = "true"
